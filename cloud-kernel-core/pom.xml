@@ -109,13 +109,6 @@
       <scope>runtime</scope>
       <version>3.4.2</version>
     </dependency>
-    <dependency>
-      <groupId>io.github.vm.patlego</groupId>
-      <artifactId>core.features</artifactId>
-      <type>xml</type>
-      <scope>runtime</scope>
-      <version>${project.version}</version>
-    </dependency>
   </dependencies>
 
 </project>
