@@ -17,8 +17,8 @@
   </properties>
 
   <modules>
-    <module>cloud-kernel-core</module>
     <module>cloud-kernel-features</module>
+    <module>cloud-kernel-core</module>
   </modules>
 
   <build>
