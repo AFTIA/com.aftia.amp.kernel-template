@@ -55,7 +55,6 @@
             <feature>service</feature>
             <feature>jaas</feature>
             <feature>deployer</feature>
-            <feature>diagnostic</feature>
             <feature>webconsole</feature>
             <feature>shell-compat</feature>
 
@@ -65,7 +64,9 @@
             <feature>cxf</feature>
 
             <feature>war</feature>
+            <feature>aftia-cloud-kernel</feature>
           </bootFeatures>
+          <workDirectory>${project.build.directory}/assembly</workDirectory>
         </configuration>
       </plugin>
     </plugins>
@@ -108,6 +109,13 @@
       <classifier>features</classifier>
       <scope>runtime</scope>
       <version>3.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.aftia.vm.system</groupId>
+      <artifactId>cloud-kernel-features</artifactId>
+      <type>xml</type>
+      <scope>runtime</scope>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 
