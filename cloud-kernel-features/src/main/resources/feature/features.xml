@@ -32,7 +32,7 @@
     </feature>
 
     <feature name="aftia-doc-cloud-osgi" version="${aftia.doc.cloud.version}">
-        <bundle>mvn:com.aftia.adobe/karaf-doc-cloud/${aftia.doc.cloud.version}</bundle>
+        <bundle>mvn:com.aftia.adobe/doc-cloud-services.karaf-core/${aftia.doc.cloud.version}</bundle>
     </feature>
 
     <feature name="aftia-doc-cloud-samples" version="${aftia.doc.cloud.version}">
