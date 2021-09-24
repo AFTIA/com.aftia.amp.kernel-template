@@ -15,7 +15,6 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <karaf.runtime.version>4.3.3</karaf.runtime.version>
 
-    <aftia.doc.cloud.version>1.0-SNAPSHOT</aftia.doc.cloud.version>
   </properties>
 
   <modules>

@@ -64,7 +64,7 @@
             <feature>cxf</feature>
 
             <feature>war</feature>
-            <feature>aftia-cloud-kernel</feature>
+            <feature>aftia-template-kernel</feature>
           </bootFeatures>
           <workDirectory>${project.build.directory}/assembly</workDirectory>
         </configuration>
