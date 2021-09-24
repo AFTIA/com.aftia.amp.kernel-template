@@ -23,6 +23,19 @@
     <module>cloud-kernel-core</module>
   </modules>
 
+  <repositories>
+    <repository>
+      <id>aftia-github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/AFTIA/com.aftia.adobe.doc-cloud-services</url>
+    </repository>
+    <repository>
+      <id>aftia-github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/AFTIA/com.aftia.app.doc-cloud-samples</url>
+    </repository>
+  </repositories>
+
   <distributionManagement>
     <repository>
       <id>aftia-github</id>
