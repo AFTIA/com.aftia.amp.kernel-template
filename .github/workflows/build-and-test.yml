@@ -37,5 +37,5 @@ jobs:
       #   run: mvn --settings settings.xml clean install
       #   env:
       #     CODEARTIFACT_TOKEN: ${{secrets.CODEARTIFACT_TOKEN}}
-        - name: Run Maven
-          run: mvn clean install
+      - name: Run Maven
+        run: mvn clean install
