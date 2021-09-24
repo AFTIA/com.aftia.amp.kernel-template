@@ -1,15 +1,13 @@
-name: Build and Test
+name: Deploy Container
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - feature/*
 jobs:
-  build_and_test:
-    name: Java Build and Test
+  build_and_deploy:
+    name: Deploy Artifacts to GH Packages
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip')"
     steps:
       - name: Cache local Maven repository
         uses: actions/cache@v2
@@ -25,6 +23,6 @@ jobs:
           java-version: "11"
           architecture: x64
       - name: Run Maven
-        run: mvn --settings settings.xml clean install
-         env:
+        run: mvn --settings settings.xml clean deploy
+        env:
           PACKAGES_TOKEN: ${{secrets.PACKAGES_TOKEN}}

@@ -23,6 +23,14 @@
     <module>cloud-kernel-core</module>
   </modules>
 
+  <distributionManagement>
+    <repository>
+      <id>aftia-github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/AFTIA/com.aftia.vm.system.cloud-kernel</url>
+    </repository>
+  </distributionManagement>
+
   <build>
     <pluginManagement>
       <plugins>
@@ -48,7 +56,7 @@
       </plugins>
     </pluginManagement>
   </build>
-  
+
   <dependencyManagement>
     <dependencies>
       <dependency>
