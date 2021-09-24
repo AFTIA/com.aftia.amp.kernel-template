@@ -13,4 +13,11 @@ Simply navigate into the `target/assembly/bin` folder of the `kernel-template-co
 
 This will return an SSH shell were you can then interact with Karaf programmatically.
 
+# OSGi Console
+
+The OSGi console can be seen visited at `http://localhost:8181/system/console` (username: karaf/ password: karaf) there you can install bundles if required.
+
+# More Information
+
+To read more on Karaf please visit http://karaf.apache.org/manual/latest/ or join the Slack Apache Karaf Channel https://infra.apache.org/slack.html
 
