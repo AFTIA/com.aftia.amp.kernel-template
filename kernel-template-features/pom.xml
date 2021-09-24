@@ -9,7 +9,7 @@
 
   <groupId>com.aftia.vm.system</groupId>
   <artifactId>kernel-template-features</artifactId>
-  <name>Cloud Kernel Features</name>
+  <name>Kernel Template Features</name>
 
   <packaging>pom</packaging>
 

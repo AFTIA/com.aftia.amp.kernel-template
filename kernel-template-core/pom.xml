@@ -10,7 +10,7 @@
   <groupId>com.aftia.vm.system</groupId>
   <artifactId>kernel-template-core</artifactId>
 
-  <name>Cloud Kernel Core</name>
+  <name>Kernel Template Core</name>
 
   <packaging>pom</packaging>
 
@@ -134,7 +134,7 @@
     </dependency>
     <dependency>
       <groupId>com.aftia.vm.system</groupId>
-      <artifactId>cloud-kernel-features</artifactId>
+      <artifactId>kernel-template-features</artifactId>
       <type>xml</type>
       <scope>runtime</scope>
       <version>${project.version}</version>
