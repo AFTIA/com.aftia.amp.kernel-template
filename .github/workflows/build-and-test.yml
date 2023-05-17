@@ -33,9 +33,7 @@ jobs:
       # - name: Copy File
       #   run: |
       #     cp .mavenrc ~/
-      # - name: Run Maven
-      #   run: mvn --settings settings.xml clean install
-      #   env:
-      #     CODEARTIFACT_TOKEN: ${{secrets.CODEARTIFACT_TOKEN}}
-      - name: Run Maven
+      - name: Build and Test (Maven)
         run: mvn clean install
+      #  env:
+      #    CODEARTIFACT_TOKEN: ${{secrets.CODEARTIFACT_TOKEN}}

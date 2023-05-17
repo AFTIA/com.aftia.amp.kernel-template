@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.aftia.vm.system</groupId>
-  <artifactId>kernel-template</artifactId>
+  <groupId>com.aftia.amp</groupId>
+  <artifactId>amp-kernel-template</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
 
-  <name>Kernel Template</name>
+  <name>AMP Kernel Template</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <karaf.runtime.version>4.3.3</karaf.runtime.version>
+    <karaf.runtime.version>4.3.6</karaf.runtime.version>
 
   </properties>
 
   <modules>
-    <module>kernel-template-features</module>
-    <module>kernel-template-core</module>
+    <module>amp-kernel-template-features</module>
+    <module>amp-kernel-template-core</module>
   </modules>
 
   <repositories>
     <repository>
-      <id>aftia-artifacts-aftia-internal</id>
-      <name>aftia-artifacts-aftia-internal</name>
-      <url>https://aftia-artifacts-282486032588.d.codeartifact.us-east-2.amazonaws.com/maven/aftia-internal/</url>
+      <id>ampfeed</id>
+      <url>https://pkgs.dev.azure.com/aftiasolutions/_packaging/AMPFeed/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </repository>
   </repositories>
 
   <distributionManagement>
     <repository>
-      <id>aftia-artifacts-aftia-internal</id>
-      <name>aftia-artifacts-aftia-internal</name>
-      <url>https://aftia-artifacts-282486032588.d.codeartifact.us-east-2.amazonaws.com/maven/aftia-internal/</url>
+      <id>ampfeed</id>
+      <name>ampfeed</name>
+      <url>https://pkgs.dev.azure.com/aftiasolutions/_packaging/AMPFeed/maven/v1</url>
     </repository>
   </distributionManagement>
 

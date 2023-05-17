@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>kernel-template</artifactId>
-    <groupId>com.aftia.vm.system</groupId>
+    <artifactId>amp-kernel-template</artifactId>
+    <groupId>com.aftia.amp</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>com.aftia.vm.system</groupId>
-  <artifactId>kernel-template-core</artifactId>
+  <groupId>com.aftia.amp</groupId>
+  <artifactId>amp-kernel-template-core</artifactId>
 
-  <name>Kernel Template Core</name>
+  <name>AMP Kernel Template Core</name>
 
   <packaging>pom</packaging>
 
@@ -133,8 +133,8 @@
       <version>3.4.2</version>
     </dependency>
     <dependency>
-      <groupId>com.aftia.vm.system</groupId>
-      <artifactId>kernel-template-features</artifactId>
+      <groupId>com.aftia.amp</groupId>
+      <artifactId>amp-kernel-template-features</artifactId>
       <type>xml</type>
       <scope>runtime</scope>
       <version>${project.version}</version>
